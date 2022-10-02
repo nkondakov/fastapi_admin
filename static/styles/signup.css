@@ -1,0 +1,132 @@
+.registration {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 52px 44px 52px 44px;
+  width: 100%;
+  max-width: 539px;
+  border-radius: 40px;
+  background-color: var(--color-white);
+
+}
+
+.registration__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.registration__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.registration__text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.registration__heading {
+  margin: 0;
+  font-size: 55px;
+  line-height: 82px;
+  font-weight: 500;
+}
+
+.registration__text-light {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-light-blue);
+}
+
+.registration__signup {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-blue);
+  transition: color 0.3s ease-in-out;
+}
+
+.registration__signup:hover {
+  color: var(--color-dark-blue);
+}
+
+.registration__signup:active {
+  color: var(--color-light-blue);
+}
+
+.registration__inputs {
+  margin: 0 0 30px 0;
+  padding: 0;
+  border: none;
+}
+
+.registration__block {
+  margin-bottom: 15px;
+}
+
+.registration__label {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.input__text {
+  margin-top: 13px;
+  padding: 19px 25px;
+  width: 100%;
+  border-color: var(--color-light-blue);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 9px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.input__text:focus {
+  border-color: var(--color-orange-light);
+}
+
+.input__text::placeholder {
+  padding: 0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: var(--color-light-blue);
+}
+
+.registration__recover {
+  align-self: flex-end;
+  margin-bottom: 32px;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-blue);
+  transition: color 0.3s ease-in-out;
+}
+
+.registration__recover:hover {
+  color: var(--color-dark-blue);
+}
+
+.registration__recover:active {
+  color: var(--color-light-blue);
+}
+
+.registration__button {
+  align-self: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.registration__button:hover {
+  background-color: var(--color-dark-blue);
+}
+
+.registration__button:active {
+  border-color: var(--color-dark-blue);
+  background-color: var(--color-light-blue);
+}

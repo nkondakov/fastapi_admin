@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Telegram bot admin login page</title>
+    <link rel="stylesheet" type="text/css" href="../../static/styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../../static/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../../static/styles/signin.css">
+    <link rel="stylesheet" type="text/css" href="../../static/styles/media.css">
+    <script src="../../static/js/just-validate.production.min.js" type="text/javascript"></script>
+    <script src="../../static/js/scripts.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="container">
+        <a href="#" class="header">
+            <img class="header__logo" src="">
+        </a>
+    </header>
+    <main class="container">
+        <section class="authorisation">
+            <form class="authorisation__form" method="post" action="#" enctype="multipart/form-data">
+                <div class="authorisation__header">
+                    <div class="authorisation__welcome">
+                        <p class="authorisation__text">Welcome to Lorem</p>
+                        <h1 class="authorisation__heading">Sign in</h1>
+                    </div>
+                    <div class="authorisation__register">
+                        <p class="authorisation__text-light">No Account ?</p>
+                        <a class="authorisation__signup link" href="#">Sign up</a>
+                    </div>
+                </div>
+                <fieldset class="authorisation__inputs">
+                    <div class="authorisation__block">
+                        <label class="authorisation__label">
+                            Enter your username or email address
+                            <input class="input__text" type="text" name="username" placeholder="Username or email address" data-validate-field="username">
+                        </label>
+                    </div>
+                    <div class="authorisation__block">
+                        <label class="authorisation__label">
+                            Enter your Password
+                            <input class="input__text" type="password" name="password" placeholder="Password" data-validate-field="password">
+                        </label>
+                    </div>
+                </fieldset>
+                <a href="#" class="authorisation__recover link">Forgot Password</a>
+                <button class="button authorisation__button" type="submit">Sign in</button>
+            </form>
+        </section>
+    </main>
+    <footer class="container">
+
+    </footer>
+</body>
+</html>
